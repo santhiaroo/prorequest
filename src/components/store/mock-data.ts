@@ -1,0 +1,55 @@
+import { StoreService } from './types';
+
+export const mockStoreServices: StoreService[] = [
+  {
+    id: '1',
+    name: 'Website Design & Development',
+    description: 'Custom website design with modern UI/UX principles and responsive development.',
+    price: 2499,
+    isSubscription: false,
+    image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=80',
+    turnaround: '2-3 weeks',
+    isPopular: true,
+    features: [
+      'Custom Design',
+      'Mobile Responsive',
+      'SEO Optimization',
+      '5 Pages',
+      'Contact Form',
+    ],
+  },
+  {
+    id: '2',
+    name: 'Monthly SEO Service',
+    description: 'Comprehensive SEO optimization to improve your search engine rankings.',
+    price: 799,
+    isSubscription: true,
+    interval: 'month',
+    image: 'https://images.unsplash.com/photo-1432888622747-4eb9a8f2c293?w=800&q=80',
+    turnaround: 'Monthly',
+    features: [
+      'Keyword Research',
+      'Content Optimization',
+      'Monthly Reports',
+      'Competitor Analysis',
+      'Link Building',
+    ],
+  },
+  {
+    id: '3',
+    name: 'Social Media Management',
+    description: 'Professional social media management to grow your online presence.',
+    price: 599,
+    isSubscription: true,
+    interval: 'month',
+    image: 'https://images.unsplash.com/photo-1611162617474-5b21e879e113?w=800&q=80',
+    turnaround: 'Daily Management',
+    features: [
+      'Content Creation',
+      'Community Management',
+      'Analytics Reports',
+      'Ad Campaign Setup',
+      'Brand Monitoring',
+    ],
+  },
+];
